@@ -12,7 +12,7 @@ sudo apt-get install git wget flex bison gperf python3 python3-pip python3-venv 
 # Step 2. Get ESP-IDF
 mkdir -p ~/esp
 cd ~/esp
-git clone https://github.com/espressif/esp-idf.git
+git clone https://github.com/espressif/esp-idf.git --depth=1
 
 # Step 3. Set up the Tools
 cd ~/esp/esp-idf
