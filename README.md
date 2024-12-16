@@ -20,6 +20,10 @@ cd ~/esp/esp-idf
 
 # Step 4. Set up the Environment Variables
 alias get_idf='. $HOME/esp/esp-idf/export.sh' # Set in ~/.zshrc
+
+# Step 5. Open VS-Code and Install ESP-IDF
+
+# DONE! You are ready to use
 ```
 
 ### MAC (Homebrew)
@@ -48,8 +52,8 @@ alias get_idf='. $HOME/esp/esp-idf/export.sh' # Set in ~/.zshrc
 
 * `PORT` on MAC: /dev/cu.usbxxx
 
-### Set target
-idf.py set-target esp32
+### Set target IMPORTANT: based on the board you are using!!!
+idf.py set-target esp32-s3
 
 ### Menu config
 idf.py menuconfig

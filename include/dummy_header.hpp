@@ -7,6 +7,8 @@ extern "C" {
 
 #define DUMMY_HEADER_VERSION 1
 
+int value(int val);
+
 #ifdef __cplusplus
 }
 #endif  
