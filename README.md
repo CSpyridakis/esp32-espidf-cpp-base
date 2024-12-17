@@ -79,3 +79,14 @@ idf.py -p `PORT` erase-flash
 ## OTA Erase
 idf.py -p `PORT` erase-otadata
 
+
+
+---
+
+[Concepts](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/build-system.html)
+
+* 
+* **Project Configuration** the `sdkconfig` to modify it use `idf.py menuconfig`
+* **app**: occasionally there are 2 apps 1. `project-app` and 2. `bootloader-app`
+* **components** modular pieces compiled to static libs
+* **target** the hardware that will run the app

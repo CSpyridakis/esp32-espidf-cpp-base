@@ -10,9 +10,9 @@
 
 extern "C" {
     void app_main(void) {
-        printf("Hello\n");
-        printf("Header %d\n", DUMMY_HEADER_VERSION);
+        printf("Start program execution...\n");
 
+        // Infinite loop
         while(true){
             print_timer();
         }
