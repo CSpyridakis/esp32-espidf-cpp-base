@@ -4,7 +4,7 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-// #include "dummy_class.hpp"
+#include "dummy_class.hpp"
 #include "dummy_header.hpp"
 #include "timer.hpp"
 
